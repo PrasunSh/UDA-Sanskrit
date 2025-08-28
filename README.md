@@ -109,14 +109,6 @@ print(f"WER: {wer_score:.3f}")
 print(f"CER: {cer_score:.3f}")
 ```
 
-Example output:
-```
-WER: 0.000
-CER: 0.000
-```
-
-*(Note: WER/CER=0.0 indicates a mismatch in alignment or incorrect decoding step. Ensure transcripts and predictions are mapped correctly.)*
-
 ---
 
 ## 🔮 Next Steps
@@ -124,9 +116,3 @@ CER: 0.000
 - Improve evaluation pipeline beyond senone IDs.  
 - Experiment with **gradient reversal layer (GRL)** for domain classifier stability.  
 - Extend to other low-resource languages.  
-
----
-
-## 📜 References
-- Bousmalis et al., *Domain Separation Networks*, NeurIPS 2016.  
-- Shahnawazuddin et al., *Unsupervised Domain Adaptation Schemes for Building ASR in Low-Resource Languages*.  
