@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data, models, and generated artifacts (kept out of the repo; produced by the pipeline)
+*.npy
+*.ark
+*.scp
+*.pth
+*.gz
+*.arpa
+*.fst
+*.log
+
+# The copyrighted source paper (cite, do not redistribute)
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
